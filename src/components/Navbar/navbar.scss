@@ -1,0 +1,52 @@
+.nav-bar {
+  width: 100vw;
+  height: 70px;
+  background-color: teal;
+  position: relative;
+  
+  .nav-logo {
+    width: 120px;
+    height: 70px;
+    margin: 0 18px;
+  }
+  
+  .verticle-bar {
+    width: 2px;
+    min-height: 100%;
+    background-color: #bebebe;
+    display: inline-block;
+  }
+  
+  .nav-bar-links {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 182px;
+    color: #fff;
+  
+    a {
+      margin-right: 18px;
+    }
+  }
+  
+  .nav-login {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 18px;
+    color: #fff;
+  
+    span {
+      cursor: pointer;
+    }
+  
+    span:first-of-type {
+      margin-right: 18px;
+    }
+  }
+}
