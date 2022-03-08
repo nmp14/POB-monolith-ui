@@ -29,6 +29,7 @@
         "accessor-pairs": 1,
         "no-compare-neg-zero": 2,
         "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
-        "import/extensions": 0
+        "import/extensions": 0,
+        "import/prefer-default-export": 0
     }
 }
