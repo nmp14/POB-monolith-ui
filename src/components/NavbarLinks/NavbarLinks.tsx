@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const NavbarLinks = () => {
+export function NavbarLinks() {
   return (
     <div className="nav-bar-links">
       <a href="/bankAccounts">
@@ -19,5 +19,5 @@ export const NavbarLinks = () => {
         Loans
       </a>
     </div>
-  )
+  );
 }

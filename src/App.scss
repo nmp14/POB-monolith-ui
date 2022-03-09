@@ -3,3 +3,14 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+// Dashboard page
+.dashboard-page {
+  background: url("./images/pexels-karolina-grabowska-4386451.jpeg") no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+
+  h1 {
+    margin: 0;
+  }
+}
