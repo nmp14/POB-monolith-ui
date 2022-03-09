@@ -5,11 +5,11 @@ import './navbar.scss';
 
 export function Navbar() {
   const loggedIn = true;
-//   const loggedIn = false;
+  //  const loggedIn = false;
 
   return (
     <nav className="nav-bar">
-      <a href="/home">
+      <a href="/dashboard">
         <img className="nav-logo" src={logo} alt="Logo for Peek Omni Budgeting" />
       </a>
 
