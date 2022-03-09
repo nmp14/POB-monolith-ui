@@ -7,7 +7,6 @@
         "plugin:react/recommended",
         "airbnb",
         "plugin:import/typescript"
-
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -30,6 +29,7 @@
         "no-compare-neg-zero": 2,
         "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
         "import/extensions": 0,
-        "import/prefer-default-export": 0
+        "import/prefer-default-export": 0,
+        "object-curly-spacing": ["error", "always"]
     }
 }
