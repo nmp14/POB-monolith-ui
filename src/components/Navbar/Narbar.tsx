@@ -1,11 +1,11 @@
 import React from 'react';
-import { NavbarLinks } from '../NavbarLinks';
+import { NavbarLinks } from './components/NavbarLinks';
+import { NavbarRight } from './components/NavbarRight';
 import logo from '../../images/POB.svg';
 import './navbar.scss';
 
 export function Navbar() {
   const loggedIn = true;
-  //  const loggedIn = false;
 
   return (
     <nav className="nav-bar">
@@ -17,18 +17,8 @@ export function Navbar() {
 
       {loggedIn && <NavbarLinks />}
 
-      <div className="nav-login">
-        {loggedIn
-          ? (
-            <>
-              <span>User</span>
-              <span>Logout</span>
-            </>
-          )
-          : (
-            <div>Login</div>
-          )}
-      </div>
+      <NavbarRight />
+
     </nav>
   );
 }
